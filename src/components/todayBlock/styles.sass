@@ -1,0 +1,42 @@
+.today-block 
+    font-family: sans-serif
+    color: #fff
+
+    background-size: cover
+
+    display: flex
+    flex-direction: column
+    align-items: center
+
+@each $wth in (sunny, cloudly, overcloudly, low_rain, rain, hard_rain, thunder)
+    .today-block_#{$wth} 
+        @if $wth == sunny 
+            background-image: url(../../../public/weather-type/sunny.png)
+        
+        @if false != index($wth, (cloudly, overcloudly))
+            background-image: url(../../../public/weather-type/clouds.png)
+        
+        @else 
+            background-image: url(../../../public/weather-type/rainy.png)
+
+@mixin today-block__item
+    font-weight: 400
+    text-shadow: 0px 4px 4px #0004
+
+.today-block__city 
+    @include today-block__item
+
+    font-size: 1.5em
+    margin: 1.5rem 0
+
+.today-block__temp 
+    @include today-block__item
+
+    font-size: 6em
+    padding-left: 1rem
+
+.today-block__weather
+    @include today-block__item
+
+    font-size: 1.25em
+    margin: 0 0 1rem

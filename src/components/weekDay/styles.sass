@@ -1,0 +1,37 @@
+@mixin flex-list
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.week-block__item 
+    @include flex-list
+
+    margin-right: 2rem
+    margin-bottom: 1rem
+
+    &:first-child 
+        margin-left: 2rem
+
+.week-block__item__day 
+    text-shadow: 0px 4px 4px #0004
+
+.week-block__item__content 
+    @include flex-list
+
+    background-color: #00000026
+
+    border-radius: 1.5rem
+    width: 7rem
+
+    padding: 2rem 0 1rem
+    margin-top: 0.5rem
+
+    &_active 
+        background-color: #00000050
+
+.week-block__content__temp 
+    font-weight: 400
+    font-size: 2em
+
+    margin-top: 1.5rem
+    margin-left: 0.5rem
