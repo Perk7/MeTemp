@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="420"
+   height="60"
+   viewBox="0 0 420 60"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="weather-sprite.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     width="420px"
+     inkscape:zoom="1.9143055"
+     inkscape:cx="256.48988"
+     inkscape:cy="-4.7014439"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <ellipse
+     cx="29.294674"
+     cy="29.055866"
+     rx="19.5"
+     ry="19"
+     fill="#f8e064"
+     id="ellipse2" />
+  <g
+     style="fill:none"
+     id="g832"
+     transform="translate(59.97671,1.1117174)">
+    <ellipse
+       cx="21.950722"
+       cy="24.283262"
+       rx="14.4"
+       ry="14.0968"
+       fill="#f8e064"
+       id="ellipse2-0" />
+    <ellipse
+       cx="39.150723"
+       cy="31.638062"
+       rx="17.200001"
+       ry="16.548401"
+       fill="#ffffff"
+       id="ellipse4" />
+    <ellipse
+       cx="15.350722"
+       cy="36.13266"
+       rx="13"
+       ry="12.0538"
+       fill="#ffffff"
+       id="ellipse6" />
+    <rect
+       x="15.950723"
+       y="42.466061"
+       width="26.4"
+       height="5.7204299"
+       fill="#ffffff"
+       id="rect8" />
+  </g>
+  <g
+     style="fill:none"
+     id="g845"
+     transform="translate(120.32211,0.78846827)">
+    <ellipse
+       cx="29.180992"
+       cy="26.885242"
+       rx="13.569631"
+       ry="13.042102"
+       fill="#f8e064"
+       id="ellipse2-1"
+       style="fill:#eeeeee;fill-opacity:1;stroke:none;stroke-width:0.933719" />
+    <ellipse
+       cx="39.358978"
+       cy="30.910797"
+       rx="16.20817"
+       ry="15.310279"
+       fill="#ffffff"
+       id="ellipse4-2"
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.933719" />
+    <ellipse
+       cx="16.931395"
+       cy="35.069118"
+       rx="12.250361"
+       ry="11.151956"
+       fill="#ffffff"
+       id="ellipse6-6"
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.933719" />
+    <rect
+       x="16.957361"
+       y="40.694988"
+       width="20.308023"
+       height="5.4035234"
+       fill="#ffffff"
+       id="rect8-5"
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:0.852425;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+  </g>
+  <g
+     style="fill:none"
+     id="g1276"
+     transform="translate(180.13503,1.9976555)">
+    <ellipse
+       cx="42.362793"
+       cy="24.399187"
+       rx="14.5"
+       ry="15"
+       fill="#a7afbb"
+       id="ellipse2-7"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="16.362795"
+       cy="26.899187"
+       rx="13.5"
+       ry="12.5"
+       fill="#a7afbb"
+       id="ellipse4-9"
+       style="fill:#ffffff;fill-opacity:1" />
+    <rect
+       x="17.815407"
+       y="31.089346"
+       width="24"
+       height="7"
+       fill="#a7afbb"
+       id="rect6"
+       style="fill:#ffffff;fill-opacity:1" />
+    <line
+       x1="24.280203"
+       y1="45.142799"
+       x2="20.280205"
+       y2="53.142799"
+       stroke="#aeb2bb"
+       id="line8"
+       style="fill:#5cd5d9;fill-opacity:1;stroke:#9dbaff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="37.875587"
+       y1="45.380951"
+       x2="33.875587"
+       y2="53.380951"
+       stroke="#aeb2bb"
+       id="line12"
+       style="fill:#5cd5d9;fill-opacity:1;stroke:#9dbaff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       cx="27.862795"
+       cy="19.399187"
+       r="13"
+       fill="#a7afbb"
+       id="circle18"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="28.862795"
+       cy="29.899187"
+       rx="6"
+       ry="2.5"
+       fill="#a7afbb"
+       id="ellipse20"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
+  <g
+     style="fill:none"
+     id="g1297"
+     transform="translate(240.20903,-0.41149152)">
+    <ellipse
+       cx="42.362793"
+       cy="24.399187"
+       rx="14.5"
+       ry="15"
+       fill="#a7afbb"
+       id="ellipse2-3"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="16.362795"
+       cy="26.899187"
+       rx="13.5"
+       ry="12.5"
+       fill="#a7afbb"
+       id="ellipse4-7"
+       style="fill:#ffffff;fill-opacity:1" />
+    <rect
+       x="17.815407"
+       y="31.089346"
+       width="24"
+       height="7"
+       fill="#a7afbb"
+       id="rect6-0"
+       style="fill:#ffffff;fill-opacity:1" />
+    <line
+       x1="19.312412"
+       y1="46.826797"
+       x2="15.312414"
+       y2="54.826797"
+       stroke="#aeb2bb"
+       id="line8-8"
+       style="fill:#ffffff;fill-opacity:1;stroke:#9ebcff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="44.779976"
+       y1="47.064949"
+       x2="40.779976"
+       y2="55.064949"
+       stroke="#aeb2bb"
+       id="line12-9"
+       style="fill:#ffffff;fill-opacity:1;stroke:#9ebcff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="32.480339"
+       y1="46.940903"
+       x2="28.480339"
+       y2="54.940903"
+       stroke="#aeb2bb"
+       id="line12-1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#9ebcff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       cx="27.862795"
+       cy="19.399187"
+       r="13"
+       fill="#a7afbb"
+       id="circle18-9"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="28.862795"
+       cy="29.899187"
+       rx="6"
+       ry="2.5"
+       fill="#a7afbb"
+       id="ellipse20-8"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
+  <g
+     style="fill:none"
+     id="g1322"
+     transform="translate(300.28304,-1.4861642)">
+    <ellipse
+       cx="42.362793"
+       cy="24.399187"
+       rx="14.5"
+       ry="15"
+       fill="#a7afbb"
+       id="ellipse2-9"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="16.362795"
+       cy="26.899187"
+       rx="13.5"
+       ry="12.5"
+       fill="#a7afbb"
+       id="ellipse4-8"
+       style="fill:#ffffff;fill-opacity:1" />
+    <rect
+       x="17.815407"
+       y="31.089346"
+       width="24"
+       height="7"
+       fill="#a7afbb"
+       id="rect6-7"
+       style="fill:#ffffff;fill-opacity:1" />
+    <line
+       x1="32.194988"
+       y1="43.711403"
+       x2="28.194988"
+       y2="51.711403"
+       stroke="#aeb2bb"
+       id="line8-85"
+       style="fill:#ffffff;fill-opacity:1;stroke:#99b8ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="15.135174"
+       y1="43.320309"
+       x2="11.135175"
+       y2="51.320309"
+       stroke="#aeb2bb"
+       id="line8-4"
+       style="fill:#ffffff;fill-opacity:1;stroke:#99b8ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="48.225708"
+       y1="43.74131"
+       x2="44.225708"
+       y2="51.74131"
+       stroke="#aeb2bb"
+       id="line8-3"
+       style="fill:#ffffff;fill-opacity:1;stroke:#99b8ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="39.132126"
+       y1="49.214294"
+       x2="35.132126"
+       y2="57.214294"
+       stroke="#aeb2bb"
+       id="line8-3-7"
+       style="fill:#ffffff;fill-opacity:1;stroke:#99b8ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="22.13022"
+       y1="49.085743"
+       x2="18.13022"
+       y2="57.085743"
+       stroke="#aeb2bb"
+       id="line12-2"
+       style="fill:#ffffff;fill-opacity:1;stroke:#99b8ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       cx="27.862795"
+       cy="19.399187"
+       r="13"
+       fill="#a7afbb"
+       id="circle18-0"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="28.862795"
+       cy="29.899187"
+       rx="6"
+       ry="2.5"
+       fill="#a7afbb"
+       id="ellipse20-9"
+       style="fill:#ffffff;fill-opacity:1" />
+  </g>
+  <g
+     style="fill:none"
+     id="g1353"
+     transform="translate(359.86626,-3.4978829)">
+    <ellipse
+       cx="42.853584"
+       cy="25.226458"
+       rx="14.5"
+       ry="14.6875"
+       fill="#a7afbb"
+       id="ellipse2-5"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="16.853584"
+       cy="27.674358"
+       rx="13.5"
+       ry="12.2396"
+       fill="#a7afbb"
+       id="ellipse4-3"
+       style="fill:#ffffff;fill-opacity:1" />
+    <rect
+       x="17.353584"
+       y="33.059757"
+       width="24"
+       height="6.8541698"
+       fill="#a7afbb"
+       id="rect6-2"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="28.353584"
+       cy="20.330658"
+       rx="13"
+       ry="12.7292"
+       fill="#a7afbb"
+       id="ellipse8"
+       style="fill:#ffffff;fill-opacity:1" />
+    <ellipse
+       cx="29.353584"
+       cy="30.611858"
+       rx="6"
+       ry="2.4479201"
+       fill="#a7afbb"
+       id="ellipse10"
+       style="fill:#ffffff;fill-opacity:1" />
+    <path
+       d="m 24.654522,33.474872 c 3.31,-3.2256 10.335,-9.864 11.9545,-10.6134 l -6.9978,11.0849 6.1479,3.8812 -12.4377,9.8654 5.7982,-9.1847 z"
+       fill="#ffc737"
+       stroke="#ffc737"
+       id="path12" />
+    <line
+       x1="20.600286"
+       y1="45.028957"
+       x2="18.600288"
+       y2="50.028957"
+       stroke="#a7afbb"
+       id="line14"
+       style="stroke:#99c2ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="48.506725"
+       y1="44.63163"
+       x2="46.506725"
+       y2="49.63163"
+       stroke="#a7afbb"
+       id="line16"
+       style="stroke:#99c2ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="36.271004"
+       y1="44.799313"
+       x2="34.271004"
+       y2="49.799313"
+       stroke="#a7afbb"
+       id="line18"
+       style="stroke:#99c2ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="27.029203"
+       y1="52.935398"
+       x2="25.029203"
+       y2="57.935398"
+       stroke="#a7afbb"
+       id="line20"
+       style="stroke:#99c2ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="9.3839626"
+       y1="44.450188"
+       x2="7.3839617"
+       y2="49.450188"
+       stroke="#a7afbb"
+       id="line20-2"
+       style="stroke:#99c2ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="40.612438"
+       y1="52.817535"
+       x2="38.612438"
+       y2="57.817535"
+       stroke="#a7afbb"
+       id="line22"
+       style="stroke:#99c2ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <line
+       x1="13.520051"
+       y1="52.94593"
+       x2="11.520051"
+       y2="57.94593"
+       stroke="#a7afbb"
+       id="line22-5"
+       style="stroke:#99c2ff;stroke-width:2;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>
