@@ -17,7 +17,7 @@ export default class WeekDay extends Component {
       <div className='week-block__item' onClick={this.props.onClick} id={this.props.date}>
         <span className="week-block__item__day">{parseDate(this.props.date)}</span>
         <div className={classForCard}>
-            <img src={`weather-icons/${iconForCard}.svg`} alt={iconForCard} className="week-block__content__weather" />
+            <div className={`week-block__content__weather weather-icon_${iconForCard}`}></div>
             <span className="week-block__content__temp">{this.props.data.default_temperature}°</span>
         </div>
       </div>

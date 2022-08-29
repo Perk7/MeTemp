@@ -1,3 +1,5 @@
+@import "../../vars"
+
 @mixin flex-list
     display: flex
     flex-direction: column
@@ -6,25 +8,36 @@
 .week-block__item 
     @include flex-list
 
+    cursor: default
+
     margin-right: 2rem
     margin-bottom: 1rem
 
     &:first-child 
         margin-left: 2rem
 
+    @include media-desktop
+        &:first-child 
+            margin-left: 1rem
+
 .week-block__item__day 
-    text-shadow: 0px 4px 4px #0004
+    text-shadow: $shadow-text
+
+    @include media-desktop
+        font-size: 1.2em
 
 .week-block__item__content 
     @include flex-list
 
-    background-color: #00000026
+    background-color: $bg-block
 
     border-radius: 1.5rem
     width: 7rem
 
     padding: 2rem 0 1rem
     margin-top: 0.5rem
+
+    box-shadow: $shadow-block
 
     &_active 
         background-color: #00000050
@@ -35,3 +48,8 @@
 
     margin-top: 1.5rem
     margin-left: 0.5rem
+
+.week-block__content__weather
+    background-image: url(../../../public/weather-icons/weather-sprite.svg)
+    height: $icon-size
+    width: $icon-size

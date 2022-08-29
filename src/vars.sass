@@ -1,0 +1,26 @@
+$bg-block: #00000026
+$shadow-block: 5px 5px 8px 0 rgba(0, 0, 0, 0.35), -4px -4px 8px 0 rgba(255, 255, 255, 0.2)
+$shadow-text: 0px 4px 4px #0004
+
+$mobile: 360px
+$pad: 768px
+$laptop: 1024px
+$desktop: 1500px
+$desktop-lg: 1920px
+
+$icon-size: 3.75rem
+
+@mixin media-phone-sm 
+  @media only screen and (max-width: $mobile - 1) { @content; }
+
+@mixin media-pad 
+  @media only screen and (min-width: $pad) and (max-width: $laptop - 1) { @content; }
+
+@mixin media-laptop 
+  @media only screen and (min-width: $laptop) and (max-width: $desktop - 1) { @content; }
+
+@mixin media-desktop 
+  @media only screen and (min-width: $laptop) { @content; }
+
+@mixin media-desktop-lg 
+  @media only screen and (min-width: $desktop-lg) { @content; }

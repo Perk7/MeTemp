@@ -1,5 +1,7 @@
+@import "../../vars"
+
 .hour-info 
-    background-color: #00000026
+    background-color: $bg-block
 
     display: flex
     flex-direction: column
@@ -8,6 +10,13 @@
     width: 100%
     padding: 1rem 1.5rem
 
+    @include media-desktop
+        background-color: unset
 
 .hour-info__temp 
     margin: 0.25rem 0
+
+.hour-info__weather
+    background-image: url(../../../public/weather-icons/weather-sprite.svg)
+    height: $icon-size
+    width: $icon-size

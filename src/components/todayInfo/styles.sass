@@ -1,31 +1,23 @@
-$indent: 0.6rem
-    
-.today-block__info-block 
-    text-shadow: none
-    background-color: #8FB5D8B5
+@import "../../vars"
 
-    border-radius: 1rem
-    padding: 0.2rem 1rem
-    margin-bottom: 1rem
-    
+.today-block__info-block 
+    height: 100%
     display: inline-flex
     flex-direction: row
 
 .info-block__item 
     text-align: center
 
-    border-right: 1px solid #fff
-    padding: 0 $indent
+    padding: 0 0.6rem
 
     display: flex
-    flex-direction: column
+    flex-direction: row
+    align-items: center
 
-    &:last-child 
-        border-right: 0
+    @include media-pad
+        padding: 0
+        padding-right: 1rem
 
-.info-block__label 
-    font-size: 0.8em
-    margin: $indent 0
-
-.info-block__value 
-    margin-bottom: $indent
+.info-block__icon
+    height: 1.5rem
+    margin-right: 0.2rem

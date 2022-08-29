@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MeTemp",
+  "name": "MeTemp - Forecast and current weather",
   "icons": [
     {
       "src": "favicon.ico",
@@ -19,7 +19,8 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "display": "fullscreen",
+  "theme_color": "#bb67df",
+  "background_color": "#bb67df",
+  "description": "This app allows you to know the current weather and the forecast for next 7 days based on your geolocation."
 }

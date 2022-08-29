@@ -1,0 +1,12 @@
+@import "../vars"
+    
+$icons: ("sunny": 0, "cloudly": 1, "overcloudly": 2, "low_rain": 3, "rain": 4, "hard_rain": 5, "thunder": 6);
+
+@each $weather, $index in $icons 
+  .weather-icon_#{$weather} 
+    background-position-x: calc(#{$icon-size} * 7 - #{$icon-size} * #{$index})
+
+
+
+    
+    

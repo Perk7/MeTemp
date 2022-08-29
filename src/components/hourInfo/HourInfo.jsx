@@ -14,7 +14,7 @@ export default class HourInfo extends Component {
       <div className="hour-info">
         <span className="hour-info__time">{this.props.time}</span>
         <span className="hour-info__temp">{this.props.data.temperature}°</span>
-        <img src={`weather-icons/${this.props.data.weather}.svg`} alt={this.props.data.weather} className="hour-info__weather" />
+        <div className={`hour-info__weather weather-icon_${this.props.data.weather}`}></div>
       </div>
     )
   }

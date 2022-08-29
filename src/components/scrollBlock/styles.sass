@@ -1,0 +1,85 @@
+@import "../../vars"
+    
+.days-block__inner 
+    display: flex
+    flex-direction: row
+    width: 100%
+
+    overflow-x: scroll
+    overflow-y: hidden
+    white-space: nowrap
+
+    scroll-behavior: smooth
+
+    &::-webkit-scrollbar
+        height: 0.3rem
+
+    &::-webkit-scrollbar-track 
+        background-color: $bg-block
+
+    &::-webkit-scrollbar-thumb
+        background-color: #ffffff30 
+        border-radius: 0.3rem    
+
+    @include media-desktop
+        justify-content: space-between
+        align-items: center
+        width: 85%
+
+        &::-webkit-scrollbar-track
+            background-color: #0000
+
+.days-block__selected-day-info
+    box-shadow: $shadow-block
+
+    margin: 2rem 0 3rem
+
+    @include media-pad
+        width: $pad
+        margin: 2rem auto 3rem
+
+    @include media-desktop
+        grid-area: day
+
+        box-shadow: none
+        font-size: 1.3em
+        margin: 0
+
+        background-color: #00000050
+
+.days-block__weekdays-list
+    border-bottom: 4rem solid #0000
+
+    @include media-desktop
+        grid-area: week
+        margin-bottom: 0
+
+        border-bottom: 0
+
+.scroll__scroll-controls-overlay
+    display: flex
+    grid-area: week
+
+.scroll__scroll-btn
+    display: none
+
+    background: url(../../../public/arrow-icons/arrow-right.svg) no-repeat
+    border: 0
+    height: 5em
+    align-self: center
+    width: 5em
+    background-color: #0005
+    padding: 0
+    margin: 0 1rem
+    border-radius: 50%
+    background-position: 50% 50%
+    box-shadow: $shadow-block
+
+    &_left
+        background-image: url(../../../public/arrow-icons/arrow-left.svg)
+
+    &_off
+        opacity: 0
+
+    @include media-desktop
+        display: block

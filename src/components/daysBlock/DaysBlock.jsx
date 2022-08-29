@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import HourInfo from '../hourInfo/HourInfo'
+import ScrollBlock from '../scrollBlock/ScrollBlock'
 import WeekDay from '../weekDay/WeekDay'
 import { parseDate } from '../../parsers'
 
@@ -38,20 +39,25 @@ export default class DaysBlock extends Component {
   }
 
   render() {
+    const hoursBlockList = Object.keys(this.props.weather.week[this.state.selected]).filter(key => !key.startsWith('default'))
+    const weekDayBlockList = Object.keys(this.props.weather.week)
+
     return (
-        <div className="days-block">
-          <div className="selected-date">{parseDate(this.state.selected)}</div>
-          <div className="days-block__inner">
-            {Object.keys(this.props.weather.week[this.state.selected]).filter(key => !key.startsWith('default')).map(key =>
-              <HourInfo key={key} time={this.makeTimeReadable(key)} data={this.props.weather.week[this.state.selected][key]} />
-            )}
+        <>
+          <div className="days-block__selected-day-info">
+            <div className="selected-date">{parseDate(this.state.selected)}</div>
+            <ScrollBlock>
+              {hoursBlockList.map(key =>
+                <HourInfo key={key} time={this.makeTimeReadable(key)} data={this.props.weather.week[this.state.selected][key]} />
+              )}
+            </ScrollBlock>
           </div>
-          <div className="days-block__inner">
-            {Object.keys(this.props.weather.week).map(key =>
+          <ScrollBlock parentClass="days-block__weekdays-list">
+            {weekDayBlockList.map(key =>
               <WeekDay key={key} date={key} selected={this.state.selected === key} onClick={this.changeSelectedDay} data={this.props.weather.week[key]} />
             )}
-          </div>
-        </div>
+          </ScrollBlock>
+        </>
     )
   }
 }
