@@ -21,7 +21,7 @@
     }
   ],
   "start_url": ".",
-  "display": "fullscreen",
+  "display": "standalone",
   "theme_color": "#894cc1",
   "background_color": "#894cc1",
   "description": "This app allows you to know the current weather and the forecast for next 7 days based on your geolocation."
