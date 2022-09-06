@@ -5,15 +5,12 @@ import TodayBlock from './components/todayBlock/TodayBlock';
 import DaysBlock from './components/daysBlock/DaysBlock';
 
 import { useEffect, useState } from 'react';
-import { getPosition, makeForecastRequest, srcArray } from './Requester';
-
-const srcArr = srcArray
+import { getPosition, makeForecastRequest, cacheImages } from './Requester';
 
 function App() {
   const [weather, setWeather] = useState(false)
   const [geoAccess, setGeoAccess] = useState(true)
   const [loaded, setLoaded] = useState(false)
-  const [srcArray, setArray] = useState(srcArr)
 
   function get_weather() {
     getPosition()
@@ -35,13 +32,8 @@ function App() {
 
   useEffect(() => {
     if (!loaded) {
-      srcArray.forEach((picture) => {
-        const img = new Image()
-        img.src = picture
-      });
-      setLoaded(true)
-    //   cacheImages()
-    //     .then(() => {setLoaded(() => true)});
+      cacheImages()
+        .then(() => {setLoaded(() => true)});
     }
     if (!weather) {
       get_weather()
@@ -54,7 +46,7 @@ function App() {
   }
 
   return (
-    <div className={`main-wrapper main-bg_${resolveMainBg() ? 'night' : 'day'}`}>
+    <div className={`main-wrapper main-bg_night`}>
       <div className='main-bg'>
           {weather && loaded
             ? <>

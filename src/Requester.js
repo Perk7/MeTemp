@@ -20,13 +20,7 @@ export const srcArray = ['weather-icons-big/cloudly_night.png',
                   'weather-icons-big/hard_rain.png',
                   'weather-icons-big/thunder.png',
                   
-                  'weather-icons/cloudly.svg', 
-                  'weather-icons/sunny.svg',
-                  'weather-icons/overcloudly.svg',
-                  'weather-icons/low_rain.svg',
-                  'weather-icons/rain.svg',
-                  'weather-icons/hard_rain.svg',
-                  'weather-icons/thunder.svg',
+                  'weather-icons/weather-sprite.svg', 
 
                   'arrow-icons/arrow-left.svg',
                   'arrow-icons/arrow-right.svg',
@@ -35,11 +29,12 @@ export const srcArray = ['weather-icons-big/cloudly_night.png',
                  ]
 
 export async function cacheImages() {
-    return new Promise((resolve, reject) => {
+    return new Promise(resolve => {
         srcArray.forEach((picture) => {
             const img = new Image()
-            img.src = picture
-            console.log(img)
+            try {
+                img.src = picture
+            } catch (error) {}
         });
         resolve()
     })

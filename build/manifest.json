@@ -10,17 +10,19 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "fullscreen",
-  "theme_color": "#bb67df",
-  "background_color": "#bb67df",
+  "theme_color": "#894cc1",
+  "background_color": "#894cc1",
   "description": "This app allows you to know the current weather and the forecast for next 7 days based on your geolocation."
 }

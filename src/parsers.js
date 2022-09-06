@@ -10,22 +10,33 @@ export function parseDate(dateStamp) {
 
 export function makeIconPath(weatherType) {
   const date = new Date().getHours()
+  let imagePath = ''
+  let path = 'weather-icons-big/'
   switch (weatherType) {
     case 'sunny':
-      return `weather-icons-big/${date > 22 || date < 5 ? 'sunny_night' : 'sunny'}.png`
+      imagePath = `${date > 22 || date < 5 ? 'sunny_night' : 'sunny'}.png`
+      break;
     case 'cloudly':
-      return `weather-icons-big/${date > 22 || date < 5 ? 'cloudly_night' : 'cloudly'}.png`
+      imagePath = `${date > 22 || date < 5 ? 'cloudly_night' : 'cloudly'}.png`
+      break;
     case 'overcloudly':
-      return `weather-icons-big/overcloudly.png`
+      imagePath = `overcloudly.png`
+      break;
     case 'low_rain':
-      return `weather-icons-big/low_rain.png`
+      imagePath = `low_rain.png`
+      break;
     case 'rain':
-      return `weather-icons-big/rain.png`
+      imagePath =`rain.png`
+      break;
     case 'hard_rain':
-      return `weather-icons-big/hard_rain.png`
+      imagePath = `hard_rain.png`
+      break;
     case 'thunder':
-      return `weather-icons-big/thunder.png`
+      imagePath = `thunder.png`
+      break;
     default:
-      return `weather-icons-big/cloudly.png`
+      imagePath = `sunny.png`
   }
+
+  return path + imagePath
 }
