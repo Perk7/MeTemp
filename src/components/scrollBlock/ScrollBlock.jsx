@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import './styles.sass'
 
+import ScrollContainer from 'react-indiana-drag-scroll'
+
 export default class ScrollBlock extends Component {
   constructor(props) {
     super(props)
@@ -54,9 +56,10 @@ export default class ScrollBlock extends Component {
     return (
       <div className='scroll__scroll-controls-overlay'>
         <button className={`${need} scroll__scroll-btn scroll__scroll-btn_left`} onClick={() => this.scrollTo('left')}></button>
-        <div className={`${this.props.parentClass || ''} days-block__inner`} ref={this.scrollBlock}>
+          
+        <ScrollContainer className={`${this.props.parentClass || ''} days-block__inner`} innerRef={this.scrollBlock} hideScrollbars={false}>
           {this.props.children}
-        </div>
+        </ScrollContainer>
         <button className={`${need} scroll__scroll-btn`} onClick={() => this.scrollTo('right')}></button>
       </div>
     )

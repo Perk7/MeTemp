@@ -17,7 +17,7 @@ function App() {
         .then(obj => {
             setGeoAccess(() => true)
             makeForecastRequest(obj.coords.latitude, obj.coords.longitude)
-              .then(resp => { setWeather(() => JSON.parse(resp.data)) })
+              .then(resp => setWeather(() => JSON.parse(resp.data)) )
               .catch(() => {
                 console.log('Request Error')
                 setTimeout(get_weather, 3000)
@@ -39,11 +39,6 @@ function App() {
       get_weather()
     }
   })
-
-  function resolveMainBg() {
-    const hours = new Date().getHours()
-    return hours >= 22 || hours <= 7
-  }
 
   return (
     <div className={`main-wrapper main-bg_night`}>
