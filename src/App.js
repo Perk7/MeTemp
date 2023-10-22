@@ -5,7 +5,7 @@ import TodayBlock from './components/todayBlock/TodayBlock';
 import DaysBlock from './components/daysBlock/DaysBlock';
 
 import { useEffect, useState } from 'react';
-import { getPosition, makeForecastRequest, cacheImages } from './Requester';
+import { getPosition, makeForecastRequest, cacheImages, makeForecastOffline } from './Requester';
 
 function App() {
   const [weather, setWeather] = useState(false)
@@ -16,8 +16,9 @@ function App() {
     getPosition()
         .then(obj => {
             setGeoAccess(() => true)
-            makeForecastRequest(obj.coords.latitude, obj.coords.longitude)
-              .then(resp => setWeather(() => JSON.parse(resp.data)) )
+            makeForecastOffline()
+            //makeForecastRequest(obj.coords.latitude, obj.coords.longitude)
+              .then(resp => {console.log('change'); setWeather(() => JSON.parse(resp.data)) })
               .catch(() => {
                 console.log('Request Error')
                 setTimeout(get_weather, 3000)
@@ -43,7 +44,7 @@ function App() {
   return (
     <div className={`main-wrapper main-bg_night`}>
       <div className='main-bg'>
-          {weather && loaded
+          {weather
             ? <>
                 <TodayBlock weather={weather} />
                 <DaysBlock weather={weather} />

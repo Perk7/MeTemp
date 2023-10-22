@@ -11,16 +11,21 @@ $desktop-lg: 1920px
 $icon-size: 3.75rem
 
 @mixin media-phone-sm 
-  @media only screen and (max-width: $mobile - 1) { @content; }
+  @media only screen and (max-width: $mobile - 1)
+     @content
 
 @mixin media-pad 
-  @media only screen and (min-width: $pad) and (max-width: $laptop - 1) { @content; }
+  @media only screen and (min-width: $pad) and (max-width: $laptop - 1)
+    @content
 
 @mixin media-laptop 
-  @media only screen and (min-width: $laptop) and (max-width: $desktop - 1) { @content; }
+  @media only screen and (min-width: $laptop) and (max-width: $desktop - 1)
+    @content
 
 @mixin media-desktop 
-  @media only screen and (min-width: $laptop) { @content; }
+  @media only screen and (min-width: $laptop)
+    @content
 
 @mixin media-desktop-lg 
-  @media only screen and (min-width: $desktop-lg) { @content; }
+  @media only screen and (min-width: $desktop-lg)
+    @content

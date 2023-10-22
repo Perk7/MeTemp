@@ -16,7 +16,7 @@ export default class TodayInfo extends Component {
             <span className="info-block__value">{parseInt(this.props.humidity*100)}%</span>
         </div>
         <div className="info-block__item">
-            <img className="info-block__icon" src="weather-icons/wind.svg" alt="" />
+            <img className="info-block__icon" src="/weather-icons/wind.svg" alt="" />
             <span className="info-block__value">{this.props.wind} м/с</span>
         </div>
     </div>
