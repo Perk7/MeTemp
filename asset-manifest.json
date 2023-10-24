@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MeTemp/static/css/main.07c6a03c.css",
-    "main.js": "/MeTemp/static/js/main.0ac36b12.js",
+    "main.js": "/MeTemp/static/js/main.bf9bbfe4.js",
     "static/js/787.13d76ca7.chunk.js": "/MeTemp/static/js/787.13d76ca7.chunk.js",
     "static/media/Comfortaa-Light.ttf": "/MeTemp/static/media/Comfortaa-Light.2d79c8b673318d831c9b.ttf",
     "service-worker.js": "/MeTemp/service-worker.js",
@@ -10,11 +10,11 @@
     "static/media/arrow-right.svg": "/MeTemp/static/media/arrow-right.e1bf08ceeb4bba6b4d07.svg",
     "index.html": "/MeTemp/index.html",
     "main.07c6a03c.css.map": "/MeTemp/static/css/main.07c6a03c.css.map",
-    "main.0ac36b12.js.map": "/MeTemp/static/js/main.0ac36b12.js.map",
+    "main.bf9bbfe4.js.map": "/MeTemp/static/js/main.bf9bbfe4.js.map",
     "787.13d76ca7.chunk.js.map": "/MeTemp/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07c6a03c.css",
-    "static/js/main.0ac36b12.js"
+    "static/js/main.bf9bbfe4.js"
   ]
 }
