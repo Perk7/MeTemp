@@ -1,7 +1,7 @@
 {
   "name": "weather",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://perk7.github.io/MeTemp",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
