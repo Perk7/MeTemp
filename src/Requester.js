@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export function makeForecastRequest(lat, lon) {
-    return axios.get(`http://192.168.0.11:8000?lat=${lat}&lon=${lon}`)
+    return axios.get(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m,relative_humidity_2m,is_day,weather_code,wind_speed_10m&hourly=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min&wind_speed_unit=ms`)
 }
 
 export function getPosition() {
@@ -14,11 +14,11 @@ export function makeForecastOffline() {
     return new Promise((resolve, reject) => {
         resolve({'data': JSON.stringify(
         {'now': {'humidity': 0.56,
-            'pressure': 745,
-            'temperature': 23,
-            'weather': 'cloudly',
-            'wind': 4.0},
-            'week': {'today': {'20:00': {'temperature': 23, 'weather': 'cloudly'},
+                'pressure': 745,
+                'temperature': 23,
+                'weather': 'cloudly',
+                'wind': 4.0},
+        'week': {'today': {'20:00': {'temperature': 23, 'weather': 'cloudly'},
                             '21:00': {'temperature': 22, 'weather': 'cloudly'},
                             '22:00': {'temperature': 20, 'weather': 'cloudly'},
                             'default_temperature': 28,
